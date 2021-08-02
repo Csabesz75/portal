@@ -19,14 +19,14 @@ body.path-user, body.path-frontpage{
 .layout-container {
     background-color: rgba(21,33,45,0.43);
     max-width: 600px;
-    min-height: 250px;
+    min-height: 350px;
     transition: 0.5s;
     color:#fff;
 }
 .tabs > li {
     display: inline-block;
     margin-right: 0;
-    width: 49.6%;
+    width: 49.5%;
 }
 .tabs a {
     display: block;
@@ -45,7 +45,7 @@ body.path-user, body.path-frontpage{
     background-color: var(--background-color);
     opacity: .5;
 }
-form#user-login-form {
+form#user-login-form, form#user-pass {
     padding: 20px;
 }
 .form-email, .form-text{
