@@ -1,0 +1,9 @@
+uuid: afe44b80-c337-4399-91e4-74176e188fb7
+langcode: en
+status: true
+dependencies: {  }
+id: companies
+label: Companies
+weight: -6
+is_admin: null
+permissions: {  }
