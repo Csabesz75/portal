@@ -1,0 +1,14 @@
+uuid: be512ab2-3524-404e-8a83-5478623dc807
+name: Portal
+mail: csabesz75@yahoo.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
