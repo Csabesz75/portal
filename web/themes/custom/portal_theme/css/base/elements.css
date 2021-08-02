@@ -8,10 +8,27 @@ html, body {
     color: #242424;
     height: 100%;
 }
-.button {
+input{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    max-width: 95%;
+}
+input.button {
     background-color: #019dbf;
     border-color: #019dbf;
     width: 100%;
     padding: 10px;
     border-radius: 5px;
+    color:#fff;
+    max-width: 100%;
+    border: none;
 }
