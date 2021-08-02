@@ -16,7 +16,12 @@ function portal_theme_preprocess_html(&$variables) {
  * Implements hook_preprocess_HOOK() for page.html.twig.
  */
 function portal_theme_preprocess_page(&$variables) {
-
+    $route_name = \Drupal::routeMatch()->getRouteName();
+    $variables['route_name'] = $route_name;
+    /*dump($route_name);*/
+    if ($variables['route_name'] == 'user.login' || $variables['route_name'] == 'user.pass') {
+        $variables['#attached']['library'][] = 'portal_theme/user.login';
+    }
 }
 
 /**

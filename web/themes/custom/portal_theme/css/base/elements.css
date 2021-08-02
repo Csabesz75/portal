@@ -1,0 +1,17 @@
+:root {
+    --background-color:#019dbf;
+}
+html, body {
+    font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #242424;
+    height: 100%;
+}
+.button {
+    background-color: #019dbf;
+    border-color: #019dbf;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}

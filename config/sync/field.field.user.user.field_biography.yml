@@ -1,20 +1,20 @@
-uuid: c0eb2eef-47c2-404d-903e-9ff0608483a2
+uuid: c93e9c98-10c5-4015-a0a1-37c85d1db1f7
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.user.field_name
+    - field.storage.user.field_biography
   module:
     - user
-id: user.user.field_name
-field_name: field_name
+id: user.user.field_biography
+field_name: field_biography
 entity_type: user
 bundle: user
-label: 'Last Name'
+label: Biography
 description: ''
-required: true
+required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string
+field_type: string_long

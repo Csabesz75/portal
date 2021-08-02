@@ -1,16 +1,16 @@
-uuid: c0eb2eef-47c2-404d-903e-9ff0608483a2
+uuid: c5ed0da4-d12a-4cf9-b471-acaa6ab2803c
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.user.field_name
+    - field.storage.user.field_company
   module:
     - user
-id: user.user.field_name
-field_name: field_name
+id: user.user.field_company
+field_name: field_company
 entity_type: user
 bundle: user
-label: 'Last Name'
+label: Company
 description: ''
 required: true
 translatable: false

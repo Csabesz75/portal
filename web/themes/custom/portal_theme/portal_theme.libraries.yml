@@ -22,3 +22,11 @@ global:
       css/layouts/layout.css: {}
     theme:
       css/theme/print.css: { media: print }
+  dependencies:
+    - core/jquery
+    - core/drupalSettings
+    - core/drupal
+user.login:
+  css:
+    theme:
+      css/custom/user.login.css: {}

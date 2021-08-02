@@ -1,16 +1,16 @@
-uuid: c0eb2eef-47c2-404d-903e-9ff0608483a2
+uuid: 821d6dfb-ab29-4a88-93ef-ff7f18b9f686
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.user.field_name
+    - field.storage.user.field_first_name
   module:
     - user
-id: user.user.field_name
-field_name: field_name
+id: user.user.field_first_name
+field_name: field_first_name
 entity_type: user
 bundle: user
-label: 'Last Name'
+label: 'First Name'
 description: ''
 required: true
 translatable: false
